@@ -1,3 +1,4 @@
+/* Set background and margins right and left to auto to center page*/
 
 body {
     background-image: url("../images/white-waves.png");
@@ -5,11 +6,20 @@ body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
+/* Start of styling of header and nav items.*/
+
 nav {
     background-color: white;
     padding: 20px 10px;
     margin-bottom: 4px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.nav-container {
+    margin-left: auto;
+    margin-right: auto;
+    height: 76px;
+    width: 968px;
 }
 
 header {
@@ -50,10 +60,21 @@ h1 {
     color: white;
 }
 
+section {
+    width: 100%;
+    background-color: white;
+    border-bottom: 2px solid #cccccc;
+    margin-bottom: 20px;
+}
+
+/* styled subheader for page name*/
+
 h2 {
     font-family: 'Georgia', Times, Times New Roman, serif;
     color: #4aaaa5;
 }
+
+/* Style for text within portfolio boxes. */
 
 h3 {
     width: 100%;
@@ -65,9 +86,14 @@ h3 {
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
+/* Padding for hr */
+
 hr {
     margin: 20px 0;
 }
+
+
+/* Styling for main content area of index and about page*/
 
 .container {
     margin: auto;
@@ -78,6 +104,8 @@ hr {
     border: 1px solid #dddddd;
 }
 
+/* Styling for main content area of portfolio page*/
+
 .portfolio-container {
     margin: auto;
     padding: 20px;
@@ -87,23 +115,13 @@ hr {
     border: 1px solid #dddddd;
 }
 
-.nav-container {
-    margin-left: auto;
-    margin-right: auto;
-    height: 76px;
-    width: 968px;
-}
+/* setting height of page*/
 
 .wrapper {
     height: 1000px;
 }
 
-section {
-    width: 100%;
-    background-color: white;
-    border-bottom: 2px solid #cccccc;
-    margin-bottom: 20px;
-}
+/* footer styling */
 
 footer {
     background-color: #666666;
@@ -117,6 +135,7 @@ footer {
 
 }
 
+/* form styling */
 
 input {
     width: 100%;
@@ -147,6 +166,8 @@ input[type=button], input[type=submit], input[type=reset] {
     font-size: 16px;
 }
 
+/* images with each portfolio image */
+
 .folio-box1 {
     background-image: url(../images/sports-q-c-300-200-1.jpg);
     height: 200px;
@@ -176,6 +197,8 @@ input[type=button], input[type=submit], input[type=reset] {
     margin-bottom: 20px;
     margin-right: 40px;
 }
+
+/* styling and float for About image */
 
 img {
     width: 250px;
